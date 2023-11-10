@@ -1,0 +1,62 @@
+.main-body__home{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.user-form{
+    height: 15rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20rem;
+}
+
+.user-form label{
+    font-size: large;
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem 0rem;
+    padding: auto;
+}
+
+.user-form input{
+    height: 2rem;
+    border-radius: 10px;
+    border: 2px solid rgb(117, 31, 154);
+    font-size: larger;
+    padding: 0 0.5rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.user-form button{
+    border: 2px solid rgb(117, 31, 154);
+    font-size: medium;
+    width: 8rem;
+    margin: 2rem 0rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.user-form button:active,
+.user-form button:hover{
+    background: rgb(117, 31, 154);
+    color: white;
+    cursor: pointer;
+}

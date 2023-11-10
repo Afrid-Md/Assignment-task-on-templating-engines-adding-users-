@@ -1,0 +1,22 @@
+.main-body__users{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+}
+
+.users-item__list{
+    padding: 2rem 2rem;
+    font-size: large;
+}
+
+.users-item{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 1rem 0rem;
+}
+
+.users-notFound{
+    padding: 0rem 1rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
